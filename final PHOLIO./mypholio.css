@@ -1,0 +1,333 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("/home/mh69/Desktop/CODING/wallpapers/hd.jpg");
+    
+}
+
+.navbar{
+    height: 100px;
+    background-color: rgb(63, 60, 60);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+
+    
+}
+.navbar a{
+    font-size: 23px;
+    text-decoration: none;  color:rgb(224, 212, 212);
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    border-color: none;
+    border-width: none;
+    border-width: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+  
+}.navbar #one{
+    width: 320px;
+    font-size: 13px;
+    margin: 26px;
+    font-style:italic;
+   font-family: 'Times New Roman', Times, serif;
+    
+
+}.navbar #two{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+     
+}.navbar #three{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
+}.navbar #four{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
+}.navbar:hover{
+   background-color: unset;
+    
+ }.navbar a:hover{ 
+    
+    color: rgb(255, 0, 157);
+    font-size: 24px;
+   
+    
+    
+    text-decoration:none;
+    /* margin-left: 30px; */
+/* }.navbar#one{ */
+  /* margin-left: 23px;  */
+/* }.navbar#four{ */
+    /* margin-left: 23px; */
+}.main{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}.main div{
+    display: inline-block;
+    background-image: unset;
+   
+}.main1{
+    text-align: end;
+    width: 40%;
+
+}.main1 img{
+    border-radius:50%;
+    padding-right: 23px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+     
+   
+}  
+.main1 img:hover{
+   margin-right: 29px;
+   
+}.main2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(108, 255, 108);
+    transition-property: all;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+    transition-timing-function: ease-in;
+}
+.main2 h1:hover{
+    margin-left: 20px;
+}.main2{
+    width: 50%;
+    height: 300px;
+}.main2 button{
+    border: none;
+    color: mediumvioletred;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    
+    height: 25px;
+}
+.about{
+    height: 80px;
+    display: flex;
+    
+    
+    
+    justify-content:flex-start;
+}.navbar #five  img{
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 10px;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    
+
+}
+.main2 button:hover{
+   background-color: rgb(224, 134, 205);
+   color: black;
+   box-shadow: 2px 2px 4px 4px rgb(88, 86, 86);
+  
+}
+.navbar #five img:hover{
+    transform: rotate(360deg);
+
+}.about{
+    margin: 45px;
+    margin-bottom: 23px;
+    background-image: unset;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+}.about:hover{
+    margin-left: 20px;
+    font-size: 20px;
+   color: red;
+}.struct{
+    width: 80%;
+    background-color: blue;
+}.edu{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    color: crimson;
+    margin-left: 23px;
+}.edu:hover{
+    margin-left: 120px;
+}.lang {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+
+.lang:hover{
+    margin-left: 120px;
+}
+
+
+.lang h2{
+    color: rgb(222, 241, 152);
+}
+#er{
+  color: rgb(201, 136, 136);
+  margin-left: 23px;
+}#sk{
+  margin-left: 49px;
+  
+  font-size: 39px;
+  color: chartreuse;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  
+}#sk img{
+    border-radius: 50%;
+}
+
+
+#sk:hover{
+    font-size: 44px;
+    margin-left: 115px;
+}
+
+
+.scard{
+    display: inline-block;
+  
+    width:25% ;
+    text-align: center;
+    padding:15px;
+    background-color: rgb(212, 205, 195);
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 3px 3px;
+    margin-right: 3%;
+    margin-bottom: 43px;
+    margin-left: 40px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+
+
+
+}.scard img{
+    padding: 20px;
+    border: 5px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+   
+    
+}.scard:hover{
+    scale: 90%;
+    background-color: rgb(57, 58, 58);
+    margin-left: 23px;
+   
+}.proj{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(88, 86, 83);
+    border-radius: 5%;
+    margin-left: 20px;
+}.proj img{
+    border-color:black ;
+    border-style: solid;
+    border-radius: 10%;
+}.hi{
+    margin-left: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    
+}.proj:hover{
+    scale: 85%;
+    box-shadow: 2px 2px 3px  3px ;
+    margin-left: 10pxs;
+    
+}.ab{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding:23px;
+    margin-bottom: 23px;
+}
+.con{
+    background-color: aqua;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 23px;
+}.lang{
+    margin-left: 86px;
+}#er{
+    margin-left: 85px;
+}.ko{
+    
+    border-radius: 50%;
+}.last{
+    display: flex;
+   justify-content: space-between;
+ 
+   
+}.last a{
+    padding-top: 5px;
+    font-size: 33px;
+}.last img{
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+}.last div{
+    margin-right: 103px;
+
+}.last #tw{
+    margin-left:100px;
+}.last a{
+    margin-bottom: 23px;
+}.last:hover{
+    box-shadow: 3px 3px 5px 5px;
+}.hi{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}.hi:hover{
+    margin-left: 70px;
+    font-size: 44px;
+}.scard img:hover{
+    transform: rotate(20deg);
+    border-radius: 30%;
+    margin-top: 10px;
+    height: 40px;
+}.container{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}.container :hover{
+    margin-left: 23px;
+}.cont{
+    display: flex;
+    color: aqua;
+    justify-content: end;
+}.thank{
+    color: darkorange;
+    margin-left: 33px;
+}
+
